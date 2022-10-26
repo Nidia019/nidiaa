@@ -17,11 +17,13 @@ lyst = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 
 if st.button("Mean"):
     meanNum = sum(lyst) / len(lyst)
+    st.write("Mean: ", meanNum)
 elif st.button("Median"):
     lyst.sort()
     m1 = lyst[len(lyst) // 2]
     m2 = lyst[len(lyst) // 2 - 1]
     medianNum = (m1 + m2) / 2
+    st.write("Median: ", medianNum)
 elif st.button("Mode"):
     frequency = {}
     for i in lyst:
@@ -31,3 +33,4 @@ elif st.button("Mode"):
     for i, j in frequency.items():
         if j == frequent:
             modeNum = i
+    st.write("Mode: ", modeNum)
