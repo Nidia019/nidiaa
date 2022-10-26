@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title("Statistics Calculator")
 
 st.subheader(text = "Please input 10 numbers: ", row = 0, column = 0)
