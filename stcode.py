@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Statistics Calculator")
 
-st.subheader(text = "Please input 10 numbers: ", row = 0, column = 0)
+st.subheader("Please input 10 numbers: ")
 n1 = st.number_input(value = 0.0, row = 1, column = 0)
 n2 = st.number_input(value = 0.0, row = 1, column = 1)
 n3 = st.number_input(value = 0.0, row = 1, column = 2)
