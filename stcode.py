@@ -3,16 +3,16 @@ import streamlit as st
 st.title("Statistics Calculator")
 
 st.subheader("Please input 10 numbers: ")
-n1 = st.number_input(value = 0.0, row = 1, column = 0)
-n2 = st.number_input(value = 0.0, row = 1, column = 1)
-n3 = st.number_input(value = 0.0, row = 1, column = 2)
-n4 = st.number_input(value = 0.0, row = 1, column = 3)
-n5 = st.number_input(value = 0.0, row = 1, column = 4)
-n6 = st.number_input(value = 0.0, row = 1, column = 5)
-n7 = st.number_input(value = 0.0, row = 1, column = 6)
-n8 = st.number_input(value = 0.0, row = 1, column = 7)
-n9 = st.number_input(value = 0.0, row = 1, column = 8)
-n10 = st.number_input(value = 0.0, row = 1, column = 9)
+n1 = st.number_input(value = 0.0)
+n2 = st.number_input(value = 0.0)
+n3 = st.number_input(value = 0.0)
+n4 = st.number_input(value = 0.0)
+n5 = st.number_input(value = 0.0)
+n6 = st.number_input(value = 0.0)
+n7 = st.number_input(value = 0.0)
+n8 = st.number_input(value = 0.0)
+n9 = st.number_input(value = 0.0)
+n10 = st.number_input(value = 0.0)
 lyst = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 
 if st.button("Mean"):
